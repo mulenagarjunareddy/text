@@ -1,0 +1,18 @@
+$ sudo apt remove ansible
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Package 'ansible' is not installed, so not removed
+
+$ ansible --version
+ansible 2.3.2.0
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = Default w/o overrides
+  python version = 2.7.17 (default, Apr 15 2020, 17:20:14) [GCC 7.5.0]
+
+$ sudo pip uninstall --yes ansible
+Uninstalling ansible-2.3.2.0:
+  Successfully uninstalled ansible-2.3.2.0
+
+$ ansible --version
+-bash: /usr/local/bin/ansible: No such file or directory
